@@ -1,0 +1,40 @@
+New log file opened at Thu Mar 17 15:58:17 WET 2016 by 19659@ruben
+Taking next connection to: 38474
+New client attempting to connect on port: 38932-38474
+  Address = /127.0.1.1:38474
+This client on port 38932 has uuid eaff4213-2212-4804-b6ac-551d476e6d53 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-eaff4213-2212-4804-b6ac-551d476e6d53
+Taking next connection to: 38474
+New client attempting to connect on port: 38938-38474
+  Address = /127.0.1.1:38474
+Handshake exception on socket: 38938
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 38474
+New client attempting to connect on port: 38940-38474
+  Address = /127.0.1.1:38474
+This client on port 38940 has uuid cc42dfac-9ed5-4b05-a83b-21742236680f configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-eaff4213-2212-4804-b6ac-551d476e6d53, play-fork-run-cc42dfac-9ed5-4b05-a83b-21742236680f
+Taking next connection to: 38474
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 38474
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 38474
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 38474
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 19659@ruben logs at Thu Mar 17 16:10:30 WET 2016, goodbye.
